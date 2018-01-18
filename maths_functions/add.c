@@ -16,6 +16,12 @@ int main() {
 	scanf("%d %d", &x, &y);
 
 	sub = x - y;
-	printf("Sum is %d", sum);
+	printf("Sum is %d", sub);
+	
+	printf("enter 2 integers");
+	scanf("%d %d", &x, &y);
+
+	times = x * y;
+	printf("Sum is %d", times);
 	
 }
